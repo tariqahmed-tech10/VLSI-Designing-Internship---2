@@ -27,7 +27,7 @@ Logic gates are the fundamental building blocks of all digital systems and the f
 
 ### HALF ADDER
 
-A half adder is a fundamental combinational logic circuit in digital electronics designed to add two single-bit binary numbers. It accepts two inputs, typically labeled A and B, and produces two outputs: the Sum (S) and the Carry (C).
+A half adder is a fundamental combination logic circuit in digital electronics designed to add two single-bit binary numbers. It accepts two inputs, typically labeled A and B, and produces two outputs: the Sum (S) and the Carry (C).
 
 ## Output Of Half Adder
 
@@ -38,5 +38,16 @@ A half adder is a fundamental combinational logic circuit in digital electronics
 <img width="1918" height="1017" alt="Screenshot 2026-06-22 211523" src="https://github.com/user-attachments/assets/6bdc099d-7673-445c-af0d-a9805dbd5626" />
 
 ### FULL ADDER
+
+A Full Adder is a foundational combination logic circuit used in digital electronics to calculate the sum of three binary bits. It has three inputs A, B, Cin and two outputs Sum(S) and Cout.
+
+## Output Of Full Adder
+
+<img width="1553" height="1001" alt="Screenshot 2026-06-23 162408" src="https://github.com/user-attachments/assets/6443a550-21ac-4be9-a85a-3377867665e4" />
+
+## Waveform of Full Adder
+
+<img width="1911" height="1000" alt="Screenshot 2026-06-23 162742" src="https://github.com/user-attachments/assets/c1e3eed7-d6b2-4393-9422-aa324569d3f3" />
+
 
 
