@@ -25,7 +25,7 @@ The output is 1 (True) only if all of its inputs are 1. If any input is 0, the o
 
 ### Truth Table of AND Gate
 
-x = a.b
+x = A.B
 
 a	b	x
 
@@ -73,4 +73,85 @@ a	x
 
 1	0
 
+### NAND Gate
+
+Produces a 0 only when all inputs are 1. Otherwise, the output is 1.It is also called as the "Universal Gate".
+
+<img width="250" height="70" alt="NAND" src="https://github.com/user-attachments/assets/9db0d047-4d78-46ac-900c-798ac96aebbf" />
+
+### Truth Table of NAND Gate
+
+x = ~(a.b)
+
+a	b	x
+
+0	0	1
+
+0	1	1
+
+1	0	1
+
+1	1	0
+
+### NOR Gate
+
+Produces a 1 only when all inputs are 0. Otherwise, the output is 0.It is also called as the "Universal Gate".
+
+<img width="180" height="70" alt="NOR" src="https://github.com/user-attachments/assets/c5d7876f-6529-4e8f-8e5b-74f739a97a4e" />
+
+### Truth Table of NOR Gate
+
+x = ~(a + b)
+
+a	b	x
+
+0	0	1
+
+0	1	0
+
+1	0	0
+
+1	1	0
+
+### XOR Gate
+
+The output is 1 only if the inputs are different (e.g., one is 0 and the other is 1).The full form of XOR Gate is "Exclusive - OR Gate"
+
+<img width="230" height="70" alt="XOR" src="https://github.com/user-attachments/assets/33fdd044-c647-49c2-8a44-c8b6fe026608" />
+
+### Truth Table of XOR Gate
+
+x = ~a.b + a.~b
+
+a	b	x
+
+0	0	0
+
+0	1	1
+
+1	0	1
+
+1	1	0
+
+### Half Adder Circuit
+
+A half adder is a fundamental combinational logic circuit in digital electronics designed to add two single-bit binary numbers. It accepts two inputs, typically labeled A and B, and produces two outputs: the Sum (S) and the Carry (C).
+
+<img width="300" height="190" alt="HALF ADDER" src="https://github.com/user-attachments/assets/8a52812b-e16a-4c08-a59e-a47630a96dfa" />
+
+### Truth Table of Half Adder Circuit
+
+Sum : x = ~a.b + a.~b
+
+Carry : y = a.b
+
+a	b	x	y
+
+0	0	0	0
+
+0	1	1	0
+
+1	0	1	0
+
+1	1	0	1
 
