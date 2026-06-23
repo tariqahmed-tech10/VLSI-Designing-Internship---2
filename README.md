@@ -14,3 +14,5 @@
 The overvie of the project is to create the verilog code and it's testbench for Logic Gates, Half adder and Full adder and simulate it using Icarus Verilog Gtkwave and Visual Studio Code.
 
 
+
+
